@@ -1,0 +1,24 @@
+# red
+
+.sqs-block-content a {
+  position: relative;
+}
+
+ .sqs-block-content a:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: .1px;
+  right: 0;
+  background: #FF2721;
+  transition: width .4s ease;
+  -webkit-transition: width .4s ease;
+} 
+
+
+.sqs-block-content a:hover:after{
+  width: 100%;
+  left: 0;
+  background: #FF2721;
+}
